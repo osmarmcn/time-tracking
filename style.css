@@ -45,6 +45,7 @@ body{
     gap: 2rem;
     justify-content: center;
     align-items: center; 
+    
 }
 
 .content{
@@ -57,8 +58,7 @@ body{
     display: flex;
     flex-direction: column;
     border-radius: 10px ;
-   
-   
+
     gap: 6rem;
 }
 
@@ -306,55 +306,4 @@ body{
     margin-bottom: .5rem;
     color: var(--Pale-Blue);
 }
-
-@media(max-width:600px){
-    .container{
-        flex-direction: column;
-    }
-    
-    .content{
-        width: 400px;
-    }
-
-    .person{
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .person .img img{
-        width: 100px;
-        height: 100px;
-    }
-    
-    
-    .person .person-text h2{
-        width: 100%; 
-    } 
-    
-    .info-list ul{
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 3rem;
-        
-        
-    }
-    
-    .time .time-box{
-        position: relative;
-        width: 400px;
-        height: 200px;
-        border-radius: 15px;
-    }
-
-    .time-box-content{
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-    }
-    
-}
-
-
 
